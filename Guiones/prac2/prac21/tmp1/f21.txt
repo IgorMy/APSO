@@ -1,0 +1,32 @@
+                     El Usuario de la puerta
+
+ La policia esta vigilando un tugurio en el que quieren introducir un
+ detective para investigar que se cuece dentro. Al cabo de un rato de
+ espera delante de la puerta del tugurio aparece un hombre y llama a la
+ puerta. Alguien desde dentro abre una mirilla y dice : "Catorce", a lo
+ que el hombre responde: "siete". Inmediatamente se abre la puerta.
+
+ Despues de unos minutos aparece otro tipo que llama a la puerta. Se abre
+ la mirilla y se oye: "dieciocho", y el tipo responde: "nueve". La puerta
+ se abre de nuevo.
+
+ Transcurrida una hora vuelve a aparecer alguien que llama a la puerta.
+ Esta vez se oye desde dentro: "ocho" y la respuesta es en este caso:
+ "cuatro", y el hombre entra sin problemas.
+
+ Los detectives piensan: "Es bastante facil. Simplemente se trata de
+ responder el numero resultado de dividir por dos la clave que nos dice
+ el portero".
+
+ Sin mas dilacion envian a un agente. El policia llama a la puerta. Se
+ abre la mirilla y el portero dice: "cero". Tras unos segundos de
+ confusion, el agente responde: "cero". Se oye una rafaga de disparos y
+ el agente cae muerto.
+
+ Los detectives piensan esta vez: "Vaya, debe de tratarse de una caso
+ especial, ha habido mala suerte". Seguidamente envian a otro agente, que
+ vuelve a llamar a la puerta. De nuevo se abre la mirilla y se oye:
+ "seis", a lo que el agente, confiado, responde: "tres".
+ Sorprendentemente, se oye otra rafaga y el policia es eliminado.
+
+ ?Cual es la clave?

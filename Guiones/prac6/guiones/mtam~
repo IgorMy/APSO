@@ -1,0 +1,9 @@
+if [ $# -lt 2 ];then
+	echo Se deben pasar dos parametros
+elsif [ ! -d $1 ] ; then
+	echo El primer parametro tiene que se run directorio
+else
+	for a in $(find $1 -name "$2" -type f);do
+	   wc -c $a
+	done
+fi

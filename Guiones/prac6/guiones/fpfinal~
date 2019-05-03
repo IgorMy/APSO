@@ -1,0 +1,7 @@
+if [ $# -lt 3 ] ; then
+	echo Se necesitan al menos 3 parametros
+elif [ -d $1 ] && [ -d $3 ]; then
+	find $1 -name "$2" -type l -printf "%f\n"  2>/dev/null >>$3/enlaces.txt	
+else
+	echo El primer y tercer parametro han de ser directorios
+fi 

@@ -1,0 +1,7 @@
+if test -d $1; then
+ more $1
+elif test -f $1;then
+ ls $1 -la
+else
+  echo $1
+fi

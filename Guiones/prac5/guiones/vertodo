@@ -1,0 +1,1 @@
+more $(find $PWD -name 's*.[cp]' -not -type d -anewer -$2 2>/dev/null | sort)

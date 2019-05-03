@@ -1,0 +1,10 @@
+if [ $# -lt 1 ];then
+	echo Se necesita pasar al menos un parametro
+else
+	read n
+	while [ $n -gt 0 ];do
+	  mkdir $1
+	  cd $1
+          n=$(($n -1))
+	done
+fi

@@ -1,0 +1,5 @@
+echo Nombre de usuario: $LOGNAME
+echo Grupo: $(id -g -n)
+echo Terminal: $(tty)
+echo Fecha y hora: $(date +'%c')
+cal -m 3           

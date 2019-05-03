@@ -1,0 +1,179 @@
+Practicas de APSO		PRACTICA 2 
+
+
+
+	ALUMNO: Ihar Myshkevich
+
+
+NOTAS:
+
+1) NO NOS PODEMOS MOVER DE DIRECTORIO MIENTRAS NO SE ESPECIFIQUE
+2) TRABAJAREMOS COMO EN LA PRACTICA 1. COPIAMOS ESTE FICHERO EN EL
+   DIRECTORIO "prac2" CON EL NOMBRE "solp2.txt". EN ESE FICHERO IREMOS
+   COLOCANDO LA SOLUCION A CADA PREGUNTA
+3) LA PREGUNTA SOLO SE CONSIDERARA CORRECTA SI USA LAS RUTAS RELATIVAS
+O ABSOLUTAS CORRECTAMENTE
+4) HAY QUE INTENTAR SOLUCIONAR CADA PREGUNTA DE LA FORMA MAS EFICIENTE
+
+
+1. Crea con un solo comando el siguiente arbol de directorios a partir de
+tu directorio personal con rutas relativas.
+
+			  prac2
+			   |
+			   |
+        -----------------------------------
+        |               |                 |
+      prac21          prac22           prac23
+	|				  |
+        |				  |
+       tmp1            			tmp2
+
+
+	mkdir prac2 prac2/prac21 prac2/prac22 prac2/prac23 prac2/prac21/tmp1 prac2/prac23/tmp2
+
+2. Muevete al directorio "prac2". Copia los ficheros "f1.txt" y
+"f2.txt" que se encuentran en "/home/so/velez/MI" en el directorio "prac2"
+usando rutas absolutas para indicar la ruta a los ficheros y ruta relativa 
+para indicar el directorio de destino.
+
+	cd prac2 
+	cp -t ./ /home/so/velez/MI/f1.txt /home/so/velez/MI/f2.txt
+
+3. Usando la adicion y sustraccion de permisos deja al directorio "prac2" sin 
+permiso de lectura y escritura, tanto para el grupo del propietario como para 
+los que no son del grupo del propietario. El propietario debe quedarse con los
+permisos que ya tenia.
+
+	<Primero vemos que permisos tiene el directorio prac2>
+	ls -l /home/ihar.myshkevich134/
+	<observamos que le propietario tiene todos los permisos y los demas  lectura y ejecución, solo hace falta quitarle el de lectura>
+	chmod g-r /home/ihar.myshkevich134/prac2
+	chmod o-r /home/ihar.myshkevich134/prac2
+
+4. Usando el metodo de colocacion de permisos global, haz que los ficheros 
+"f1.txt" y "f2.txt" tengan todos los permisos para el propietario, permiso de
+lectura para los usuarios del grupo del propietario y ningun permiso para los
+usuarios que no son del grupo del propietario.
+
+	chmod 740 f1.txt f2.txt
+
+5. Muevete al directorio "prac21" mediante rutas absolutas. Mediante rutas 
+relativas haz una copia de los fichero "f1.txt" y "f2.txt" en el directorio 
+"tmp1". Renombra el fichero f1.txt del directorio "tmp1" a "f21.txt" con rutas 
+relativas
+
+	cd /home/ihar.myshkevich134/prac2/prac21
+	cp -t  tmp1 ../f1.txt ../f2.txt
+	mv tmp1/f1.txt tmp1/f21.txt
+
+6. Mueve y renombra el fichero "f2.txt" del directorio "tmp1" al directorio "tmp2"
+con el nombre "f23.txt" usando rutas relativas y en un solo comando. 
+
+	mv tmp1/f2.txt ../prac23/tmp2/f23.txt
+
+7. Muevete con un solo comando al directorio "tmp2" sin usar rutas absolutas.
+Busca con el comando "find" los directorios que cuelgan de tu directorio
+personal cuyo segundo caracter sea una "r" o una "t"(tanto en mayusculas como
+en minusculas), su penultimo caracter no sea un numero y su ultimo caracter 
+sea un numero.
+
+	cd ../prac23/tmp2/
+	find  /home/ihar.myshkevich134/ -name "?[r,t,R,T]*[!0-9][0-9]" -type d	
+
+8. Busca los ficheros que no sean directorios (pueden ser de cualquier otro tipo) 
+y que cuelgan de tu directorio personal, que sean mas nuevos que el fichero 
+"solp1.txt" que se encuentra en vuestro directorio "prac1" y que hayan sido 
+modificados hace menos de 3 dias. Usa rutas absolutas en todo momento.
+
+	find /home/ihar.myshkevich134/ -not -type d -newer /home/ihar.myshkevich134/prac1/solp1.txt -mtime -3	
+
+9. Consulta con el "grep" donde aparecen en los ficheros "f1.txt" y
+"f2.txt" del directorio "prac2" los caracteres "llama", sea en mayuscula 
+o en minuscula (con un solo comando). Debe aparecer 5 veces en "f1.txt" y 
+6 veces en "f2.txt" para estar correcto 
+
+	grep "llama" ../../f1.txt ../../f2.txt -c -i
+
+10. ¿Cuantos bytes ocupa el fichero "f21.txt"? Indica dos comandos 
+distintos con los que puedes averiguar el tamanyo en bytes de un fichero.
+
+	ls -l /home/ihar.myshkevich134/prac2/prac21/tmp1/f21.txt
+	wc /home/ihar.myshkevich134/prac2/prac21/tmp1/f21.txt -c
+
+11. Consulte en que dia de la semana se fundo la Universidad de Huelva (1 de 
+Julio de 1993) con el comando "cal". (Nota: consulte solo el mes y averigue 
+el dia de la semana que es).
+
+	cal -d 1993-07
+	< El día 1 de Julio de 1993 fue un jueves >	
+
+12. Mostrar la hora y fecha con el siguiente formato:
+   "Bienvenido. Son las <hora> horas y <minuto> minutos del <dia de la semana en
+    letras> <dia del mes> de <mes en letras>. Ha sido un placer" 
+
+	date +"Bienvenido. Son las %H horas y %M minutos del %A %d de %B. Ha sido un placer"
+
+13. Muevete a tu directorio personal. Ordena el fichero "usuarios04-05.txt" que 
+se encuentra en el directorio "/home/so/velez/MI" de menor a mayor y guarda el 
+fichero resultante en el directorio "prac22" con el nombre "usu.orden.pabajo". 
+Haz lo mismo pero ordenando de mayor a menor y guarda el resultado en el 
+directorio "prac22" con el nombre "usu.orden.parriba"
+
+	cd ~
+	sort /home/so/velez/MI/usuarios04-05.txt --output=prac2/prac22/usu.orden.pabajo
+	sort /home/so/velez/MI/usuarios04-05.txt -r --output=prac2/prac22/usu.orden.parriba	
+
+14. Visualiza el fichero "f1.txt". Visualiza las 2 ultimas lineas del fichero 
+"solf1.txt" que se encuentra en el directorio "/home/so/velez/MI" para ver la
+solucion al enigma
+
+	cat prac2/f1.txt
+	tail -n 2 /home/so/velez/MI/solf1.txt	
+
+15. Muevete al directorio prac2. Visualiza el numero de caracteres del fichero 
+"f23.txt" del directorio "tmp2"
+
+	cd prac2
+	wc -m prac23/tmp2/f23.txt
+
+16. Crea un enlace (hard link) llamado "solucionprac1" en el directorio "prac2" 
+que se corresponda con el fichero "solp1.txt" del directorio "prac1"
+
+	ln ../prac1/solp1.txt solucionprac1
+
+17. Crea un enlace simbolico (soft link) llamado "temporal" en el directorio
+"prac2" que apunte al directorio "tmp2" del directorio "prac23"
+
+	ln -s -d prac23/tmp2  temporal 	
+
+18. Usando el comando "file" averigua de que tipo son los ficheros 
+"solucionprac1" y "temporal"
+
+	file solucionprac1
+	< Como apunta directamente al archivo, nos saca los datos del
+archivo>
+	file temporal
+	< Nos descibe el soft-link>
+
+19. Usando el "who". Visualiza solo los nombres de todas las sesiones que hay 
+actualmente abiertas en el sistema, y el numero de sesiones abiertas. Se 
+necesita una opcion.
+
+	who -q	
+
+20. Abre una nueva sesion. Edita con el "joe" un fichero con el nombre
+"inservible". Averigua con el "ps" el identificador del proceso "joe". Mata al 
+proceso "joe" con el comando "kill".
+ 
+	
+
+21. Escribe un mensaje con el "write" al usuario "velez" que tiene la sesion 
+abierta a una hora mas temprana
+
+22. Deja todos los permisos menos el de ejecucion al fichero "solp2.txt" y 
+quita el resto de los permisos para todos los que no son de nuestro grupo 
+sobre ese fichero.
+
+
+(NO SE OLVIDE PONER EL NOMBRE)

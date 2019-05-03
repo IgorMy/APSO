@@ -1,0 +1,11 @@
+n="hola"
+until [ $n == "." ]; do
+	read n
+	case $n in
+    		.) ;;
+    		[1-9]*) echo $n >>numero;;
+		[aAeEiIoOuU]*) echo $n >>vocal;;
+		*) echo $n >>otro;;
+	esac
+done
+

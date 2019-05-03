@@ -1,0 +1,199 @@
+                         LOS USUARIOS Y LA INFORMÁTICA
+
+Esta es una historia real sucedida en el servicio de atención al cliente 
+de WordPerfect. Ni que decir tiene que el empleado fue puesto de patitas 
+en la calle.Sin embargo, en la actualidad él/ella está en mitad de un 
+proceso judicial contra WordPerfect por despido improcedente.
+Este es el dialogo que mantuvo el antiguo empleado:
+
+- Soporte Técnico de Ridge Hall, ¿en qué puedo ayudarle?
+-
+- Sí, verá, es que estoy teniendo problemas con WordPerfect.
+- ¿Qué tipo de problemas?
+-
+- Pues es que estaba tecleando y de repente las palabras se han ido.
+- ¿Se han ido?
+-
+- Desaparecieron.
+- Hummm. ¿Qué ve ahora en la pantalla?
+-
+- Nada.
+- ¿Nada?
+-
+- Está en negro. No acepta nada de lo que tecleo.
+- ¿Está todavía en WordPerfect o se ha salido de la aplicación?
+-
+- ¿Cómo puedo saber eso?
+- ¿Puede ver el prompt C: \ en la pantalla?
+-
+- ¿Qué es un promce dos puntos?
+- No importa. ¿Puede mover el cursor por la pantalla?
+-
+- No hay cursor. Ya le he dicho que no acepta nada de lo que tecleo.
+- ¿Su monitor tiene un indicador de encendido?
+-
+- ¿Qué es un monitor?
+- Es esa cosa con la pantalla que parece una televisión. Tiene una luz 
+pequeñita que le dice cuando esta encendido.
+- Pues no lo sé.
+-
+- Bien. Entonces mire en la parte trasera del monitor y busque el lugar a 
+donde va el cable de la corriente. ¿Puede verlo?
+- Sí, creo que sí.
+-
+- Estupendo. Siga el cable hasta el enchufe y dígame si está conectado a él.
+- Sí, esta enchufado.
+-
+- ¿Cuándo ha estado detrás del monitor ha visto si había dos cables 
+enchufados a él en vez de uno?
+- No.
+-
+- Bueno, pues los hay. Ahora necesito que vuelva a mirar por detrás y 
+encuentre el otro cable.
+- Vale, ya lo tengo.
+-
+- Sígalo y dígame si está enchufado a la parte de atrás del ordenador.
+- No llego
+-
+- Eeehh, bueno. ¿Puede ver si está enchufado?
+- No.
+-
+- ¿Ni siquiera si se arrodilla o se inclina para mirar?
+- Ah, no es porque no esté en el ángulo correcto, es porque está muy oscuro.
+- ¿Oscuro?
+-
+- Sí, es que la luz de la oficina está apagada, y la única luz que tengo 
+es la que entra por la ventana.
+- Bueno, pues entonces encienda la luz de la oficina.
+-
+- No puedo..
+- ¿No? ¿Por qué no?
+-
+- Porque ha habido un apagón.
+- ¿Un.. un apagón? !Aja! Muy bien, entonces ya tengo la solución. 
+¿Todavía conserva las cajas y los manuales y el embalaje de su ordenador?
+- Bueno, sí, los guardo en el armario.
+-
+- !Bien! Pues vaya a por ellos, desenchufe su sistema y empaquételo tal 
+como estaba cuando se lo trajeron. Y luego devuélvalo a la tienda donde 
+lo compró.
+- ¡Hala! ¿Entonces es grave?
+-
+- Pues me temo que sí.
+- Vale, pues perfecto entonces. Digo yo ¿Y qué tengo que decirles?
+-
+- Dígales que ES USTED DEMASIADO IDIOTA PARA TENER UN ORDENADOR!!!
+
+
+                       MÁS PROBLEMAS EN LOS SERVICIOS TÉCNICOS
+
+Extracto de un artículo del "Wall Street Journal" sobre las anécdotas 
+ocurridas en las líneas de atención al cliente de varias empresas 
+informáticas
+
+
+1.-  La empresa Compaq ha considerado seriamente sustituir la instrucción 
+"Press Any Key to Continue" por "Press Intro", debido a las Llamadas que 
+preguntaban donde se encontraba la maldita tecla Any.
+
+2.- El servicio de apoyo técnico de AST recibió una llamada de queja 
+sobre lo difícil que resultaba manejar el ratón con la protección para el 
+polvo puesta. La protección para el polvo resultó ser la bolsa de 
+plástico en la que venía embalado el ratón
+
+3.- Un técnico de Compaq recibió en una ocasión una llamada de un hombre 
+quejándose de que su ordenador no era capaz de procesar sus archivos de 
+texto guardados en sus viejos discos de 5 pulgadas. Tras descartar 
+fuentes de calor o magnetismo en su almacenaje se dieron cuenta de que el 
+usuario había etiquetado los discos, los había introducido en la maquina 
+de escribir y> había mecanografiado las etiquetas ya colocadas.
+
+4.- A otro cliente de AST se le pidió que enviara una copia de sus discos 
+de arranque que producían problemas. Unos días más tarde el servicio 
+técnico recibió una carta del cliente con unas magníficas fotocopias en 
+color de los discos.
+
+5.- Un técnico del servicio telefónico de Dell aconsejó a un usuario que 
+volviera a introducir el disco en la unidad y cerrara la portilla. El 
+cliente le pidió que esperara un momento y se escucho como dejaba el 
+teléfono sobre la mesa y se levantaba para cerrar la puerta de la habitación.
+
+6.- Otro cliente de Dell llamó diciendo que no podía enviar faxes con su 
+ordenador. Después de 40 minutos de explicaciones cruzadas el técnico 
+descubrió que el usuario estaba intentando enviar una hoja de papel por 
+fax pasándola por la pantalla y apretando la tecla "Send".
+
+7.- Otro usuario de Dell llamó quejándose de que su teclado había dejado 
+de funcionar. El técnico le preguntó sobre las condiciones de 
+conservación del mismo y el cliente le respondió orgullosamente que por estar 
+sucio no podía ser: "Lo he limpiado hoy mismo sacando una por una todas las 
+teclas y limpiando el armazón con agua abundante, jabón y un cepillo".
+
+8.- Un técnico de Dell recibió una llamada de un cliente indignado porque 
+su ordenador le había insultado: "Me ha llamado malo inválido e 
+incorrecto". El técnico le explicó que las respuestas: "comando 
+incorrecto o inválido" no deben tomarse como algo personal.
+
+9.- Un confuso usuario de IBM tenía problemas para imprimir sus 
+documentos. Le comentó al técnico de atención online que su ordenador 
+decía: "No puedo encontrar la impresora". El usuario había girado el 
+monitor hacia la impresora pero el ordenador seguía sin poder 'ver' la 
+impresora.
+
+10.-  Una desesperada usuaria recurrió al Servicio de Apoyo Técnico de 
+Dell porque su nuevo ordenador Dell no se encendía. Tras asegurarse que 
+el aparato estaba enchufado, el técnico le pidió que le comentara qué 
+pasaba al apretar el botón de encendido. Ella respondió: "He apretado 
+varias veces el pedal y no ha pasado nada". El "pedal" resultó ser el 
+ratón del ordenador.
+
+11.- Otra clienta llamó al servicio técnico de Compaq para decir que su 
+nuevo y reluciente ordenador no funcionaba. Ella comentó que había 
+desembalado la unidad, la había enchufado según las instrucciones y 
+esperado hasta 2 minutos sin que nada pasara. Cuando se le preguntó que 
+relatara que sucedía exactamente al apretar el botón de encendido, ella 
+contesto: "¿Qué botón de encendido?
+
+12.- Operador del Centro de Atención al Cliente de Novell NetWare:
+
+- Usuario: Hola, ¿es el Servicio Técnico?
+- Técnico: Sí, aquí es. ¿En qué puedo ayudarle
+- Usuario: El portavasos de mi PC se ha roto y como estoy todavía en 
+garantía me gustaría que me lo sustituyeran. ¿Qué tengo que hacer?
+- Técnico: Disculpe. ¿Ha dicho portavasos?
+- Usuario: Sí. Está incorporado a mi ordenador.
+- Técnico: Perdóneme si parezco un poco perdido, pero es que lo estoy. 
+¿Recibió usted ese elemento como parte de una promoción u oferta? ¿Cómo 
+consiguió ese portavasos? ¿Tiene alguna marca impresa?
+- Usuario: Pues venía con el ordenador. No se nada de ninguna promoción, 
+y en él sólo hay escrito "4X".
+
+En ese momento, el Técnico se vio obligado a tapar el micrófono de su 
+teléfono porque no pudo contener un ataque de risa. El usuario había 
+estado usando como portavasos la bandeja extraíble del CD-ROM y, 
+naturalmente, había terminado por romperse.
+
+13.- Otro usuario de IBM tenía problemas instalando el software y llamó 
+pidiendo ayuda: "Puse el primer disco en la unidad y todo parecía 
+correcto. Pero cuando me pidió que metiera el segundo disco, tuve algunos 
+problemas. Y ya ni siquiera me pidió que metiera el tercero". El usuario 
+no se había dado cuenta que "Inserte el disco 2" implica que debe sacarse 
+primero el 1...
+
+14.- En un incidente parecido un USUARIO siguió fielmente las 
+instrucciones para instalar el software. Tan fielmente que cuando leyó 
+que sacara los discos de su envoltura y los introdujera en la unidad, 
+retiró meticulosamente la parte plástica, dejando tan sólo el disco 
+magnético y la parte central metálica.
+
+15.-  El responsable de informática de cierta empresa recibió una Llamada 
+de uno de los directivos, pasadas las 11 de la noche:
+
+- Oye, que el ordenador de casa me ha dicho que tiene un virus, y mañana 
+es Viernes 13. ¿Qué hago?
+
+- Pues mañana en la oficina te facilito un programa para desinfectarlo. 
+No se si será el Viernes 13, pero por si las moscas, no enciendas el 
+ordenador mañana.
+
+- Vale. ¿Desenchufo también la televisión y la cadena por si acaso?

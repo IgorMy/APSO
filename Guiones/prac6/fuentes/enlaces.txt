@@ -1,0 +1,3 @@
+/home/diegofrancisco.darias741/prac6/guiones/Softlink
+/home/diegofrancisco.darias741/prac6/guiones/Softlink
+Softlink/nSoftlink
